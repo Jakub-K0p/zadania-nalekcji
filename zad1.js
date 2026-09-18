@@ -22,14 +22,19 @@ let iloczyn = a * b;
 document.writeln(`<p>suma: ${a} + ${b} = ${suma}</p>`);
 document.writeln(`<p>roznica: ${a} - ${b} = ${roznica}</p>`);
 document.writeln(`<p>iloczyn:  ${a} * ${b} = ${iloczyn}</p>`);
-//zad4
 
+//zad4
 let liczba = parseFloat(prompt("Podaj liczbę:"));
  
 let pierwiastek = Math.sqrt(liczba);
-document.writeln(`<p>Pierwiastek z ${liczba} wynosi: ${pierwiastek}</p>`)
+document.writeln(`<p>Pierwiastek z ${liczba} wynosi: ${pierwiastek}</p>`);
+
 //zad5
 let bok = parseFloat(prompt("Podaj długość boku kwadratu:"));
  
 let pole = bok * bok;
 document.writeln(`<p>Pole kwadratu wynosi: ${pole}</p>`);
+
+//zad6
+let prodlopadloscian = a * b + a * c + b * c;
+document.writeln(`<p>Pole prostopadłościanu: ${prodlopadloscian}</p>`);
