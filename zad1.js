@@ -62,4 +62,9 @@ let price2 = CENA_BENZYNY * spalanie  * trasa;
 
 document.writeln(`<p>koszt przejazdu ${trasa} km z spalaniem ${spalanie}: ${price2}</p>`);
 
+//zad10
+let lokata = parseFloat(prompt("Podaj kwotę do lokaty:"));\
+let money1 = lokata * 0.08;
+let money2 = money1 * 0.81;
 
+document.writeln(`<p>zysk z lokaty oprocentowanie 8% z podatkiem Belki z ${lokata} pln: ${money2} pln </p>`);
