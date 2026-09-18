@@ -22,3 +22,9 @@ let iloczyn = a * b;
 document.writeln(`<p>suma: ${a} + ${b} = ${suma}</p>`);
 document.writeln(`<p>roznica: ${a} - ${b} = ${roznica}</p>`);
 document.writeln(`<p>iloczyn:  ${a} * ${b} = ${iloczyn}</p>`);
+//zad4
+
+let liczba = parseFloat(prompt("Podaj liczbę:"));
+ 
+let pierwiastek = Math.sqrt(liczba);
+document.writeln(`<p>Pierwiastek z ${liczba} wynosi: ${pierwiastek}</p>`)
