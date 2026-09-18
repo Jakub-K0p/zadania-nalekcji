@@ -46,3 +46,11 @@ let circle2 = 2 * Math.PI * a;
 document.writeln(`<p>Pole koła: ${circle1}</p>`);
 document.writeln(`<p>Obwód koła: ${circle2}</p>`);
 
+//zad8
+const CENA_BENZYNY = 7.83; // za litr
+let km = 360;
+let l_per_km = 8.0 / 100.0;
+let price = l_per_km * km *CENA_BENZYNY;
+
+document.writeln(`<p>koszt przejazdu z gdańska do szczecina: ${price}</p>`);
+
