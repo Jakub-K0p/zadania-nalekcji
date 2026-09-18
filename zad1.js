@@ -28,3 +28,8 @@ let liczba = parseFloat(prompt("Podaj liczbę:"));
  
 let pierwiastek = Math.sqrt(liczba);
 document.writeln(`<p>Pierwiastek z ${liczba} wynosi: ${pierwiastek}</p>`)
+//zad5
+let bok = parseFloat(prompt("Podaj długość boku kwadratu:"));
+ 
+let pole = bok * bok;
+document.writeln(`<p>Pole kwadratu wynosi: ${pole}</p>`);
