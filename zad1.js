@@ -38,3 +38,11 @@ document.writeln(`<p>Pole kwadratu wynosi: ${pole}</p>`);
 //zad6
 let prodlopadloscian = a * b + a * c + b * c;
 document.writeln(`<p>Pole prostopadłościanu: ${prodlopadloscian}</p>`);
+
+// zad7
+let circle1 = Math.PI * Math.pow(a, 2);
+let circle2 = 2 * Math.PI * a;
+
+document.writeln(`<p>Pole koła: ${circle1}</p>`);
+document.writeln(`<p>Obwód koła: ${circle2}</p>`);
+
