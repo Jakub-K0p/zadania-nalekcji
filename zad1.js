@@ -54,3 +54,12 @@ let price = l_per_km * km *CENA_BENZYNY;
 
 document.writeln(`<p>koszt przejazdu z gdańska do szczecina: ${price}</p>`);
 
+//zad9
+let trasa = parseFloat(prompt("Podaj trasę:"));
+let spalanie = parseFloat(prompt("Podaj spalanie samochodu na km:"));
+
+let price2 = CENA_BENZYNY * spalanie  * trasa;
+
+document.writeln(`<p>koszt przejazdu ${trasa} km z spalaniem ${spalanie}: ${price2}</p>`);
+
+
